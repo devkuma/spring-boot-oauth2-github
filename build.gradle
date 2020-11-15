@@ -15,6 +15,10 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	compile group: 'org.webjars', name: 'webjars-locator-core', version: '0.46'
+	compile group: 'org.webjars', name: 'bootstrap', version: '4.5.3'
+	compile group: 'org.webjars', name: 'jquery', version: '3.5.1'
 }
 
 test {
